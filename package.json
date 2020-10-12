@@ -1,0 +1,24 @@
+{
+  "name": "my-team-page",
+  "version": "1.0.0",
+  "description": "![screenshot](screenshot.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Betsimisaraka/my-team-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Betsimisaraka/my-team-page/issues"
+  },
+  "homepage": "https://github.com/Betsimisaraka/my-team-page#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
