@@ -4,54 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My team page</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header>
-        <h1>The creative crew</h1>
-    </header>
-    <main>
-        <header>
-            <h2>Who we are</h2>
-            <p>We are team of creatively diverse. driven. innovative individuals working in various locations from the
-                world.</p>
+    <div class="container">
+        <header class="site_header">
+            <h1 class="site_header__heading">The creative crew</h1>
         </header>
-        <article>
-            <div>
-                <p>Product owner</p>
-                <img src="./images/photo1.png" alt="">
-                <h3>Bill Mahoney</h3>
-            </div>
-            <div>
-                <p>Art director</p>
-                <img src="./images/photo2.png" alt="">
-                <h3>Saba Cabrera</h3>
-            </div>
-            <div>
-                <p>Tech Lead</p>
-                <img src="./images/photo3.png" alt="">
-                <h3>Shae Le</h3>
-            </div>
-            <div>
-                <p>UX Designer</p>
-                <img src="./images/photo4.png" alt="">
-                <h3>Skylah Lu</h3>
-            </div>
-            <div>
-                <p>Developer</p>
-                <img src="./images/photo5.png" alt="">
-                <h3>Griff Richards</h3>
-            </div>
-            <div>
-                <p>DEverloper</p>
-                <img src="./images/photo6.png" alt="">
-                <h3>Stan John</h3>
-            </div>
-        </article>
+        <div class="masthead">
+            <h2 class="masthead_header">Who we are</h2>
+            <p class="masthead_description">We are team of creatively diverse. driven. innovative individuals working in various locations from the
+                world.</p>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <article class="article_main">
+                <div class="section section_bill">
+                    <p class="job">Product owner</p>
+                    <img src="./images/photo1.png" alt="">
+                    <h3 class="name">Bill Mahoney</h3>
+                </div>
+                <div class="section section_saba">
+                    <p class="job">Art director</p>
+                    <img src="./images/photo2.png" alt="">
+                    <h3 class="name">Saba Cabrera</h3>
+                </div>
+                <div class="section section_shae">
+                    <p class="job">Tech Lead</p>
+                    <img src="./images/photo3.png" alt="">
+                    <h3 class="name">Shae Le</h3>
+                </div>
+                <div class="section section_skylah">
+                    <p class="job">UX Designer</p>
+                    <img src="./images/photo4.png" alt="">
+                    <h3 class="name">Skylah Lu</h3>
+                </div>
+                <div class="section section_griff">
+                    <p class="job">Developer</p>
+                    <img src="./images/photo5.png" alt="">
+                    <h3 class="name">Griff Richards</h3>
+                </div>
+                <div class="section section_stan">
+                    <p class="job">DEverloper</p>
+                    <img src="./images/photo6.png" alt="">
+                    <h3 class="name">Stan John</h3>
+                </div>
+            </article>
+        </div>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Your name @ DevChallenges.io</p>
     </footer>
 </body>
