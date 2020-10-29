@@ -3,7 +3,7 @@ html {
   font-size: 1rem; }
 
 body {
-  background: #FAFAFA;
+  background: #FAFA;
   margin: 0;
   padding: 0; }
 
@@ -145,3 +145,19 @@ p {
   .section_stan {
     top: 70px;
     margin-right: 0; } }
+
+.footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A9A9A9;
+  position: absolute;
+  top: 180%;
+  left: 20%; }
+
+@media (min-width: 800px) {
+  .footer {
+    top: 180%;
+    left: 45%; } }
